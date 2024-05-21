@@ -3,6 +3,7 @@ export default function About() {
     <section id="profile">
       <div className="section_pic-container">
         <img
+          className="profile-picture"
           src="./images/hero/gxmrd.png"
           alt="Jordan Akpovi profile picture"
         />
@@ -12,11 +13,9 @@ export default function About() {
         <h1 className="title">Jordan Akpovi</h1>
         <p className="section__text__p2">Developper Web</p>
         <div className="btn-container">
-          <a href="#contact" className="btn btn-color-1">
-            Contactez-moi
-          </a>
+          <button className="btn btn-color-2">Mon CV</button>
 
-          <a className="btn btn-color-2">CV</a>
+          <button className="btn btn-color-1">Contactez-moi</button>
         </div>
         <div id="social-container">
           <img src="./images/logo/linkedin.png" className="icon" />

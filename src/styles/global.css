@@ -171,6 +171,12 @@ section {
   margin: auto 0;
 }
 
+.profile-picture {
+  border-radius: 125px;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
 .section__text {
   align-self: center;
   text-align: center;
@@ -182,16 +188,19 @@ section {
 
 .section__text__p1 {
   text-align: center;
+}
+
+.section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.75rem;
   text-align: center;
 }
 
-#socials-container {
+#social-container {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -217,8 +226,17 @@ section {
   font-weight: 600;
   transition: all 300ms ease;
   padding: 1rem;
-  width: 8rem;
+  width: 10rem;
   border-radius: 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-link-1 {
+  margin-right: 20px;
+}
+.btn-link-2 {
+  margin-left: 50px;
 }
 
 .btn-color-1,
@@ -230,7 +248,7 @@ section {
 .btn-color-2:hover {
   cursor: pointer;
 }
-.btn-color-1:hover,
+.btn-color-1,
 .btn-color-2:hover {
   background: rgb(53, 53, 53);
   color: white;
@@ -250,4 +268,83 @@ section {
 
 .btn-container {
   gap: 1rem;
+}
+
+/* ABOUT SECTION*/
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 30rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+/* EXPERIENCE*/
+
+#experience {
+  position: relative;
+}
+
+.experience-subtitle {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  gap: 1rem;
+}
+
+article .icon {
+  cursor: default;
 }

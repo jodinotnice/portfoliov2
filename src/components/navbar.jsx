@@ -17,10 +17,10 @@ export default function Navbar() {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#Projets">Projets</a>
+              <a href="#projet">Projets</a>
             </li>
             <li>
-              <a href="#Experience">Expérience</a>
+              <a href="#competences">Compétences</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
@@ -46,13 +46,13 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#projets" onClick={toggleMenu}>
+              <a href="#projet" onClick={toggleMenu}>
                 Projets
               </a>
             </li>
             <li>
-              <a href="#experience" onClick={toggleMenu}>
-                Expérience
+              <a href="#competences" onClick={toggleMenu}>
+                Compétences
               </a>
             </li>
             <li>

@@ -14,7 +14,7 @@ export default function Description() {
           </p>
         </div>
       </div>
-      <a href="#experience">
+      <a href="#competences">
         <img
           src="./images/logo/arrow.png"
           alt="Arrow Icon"

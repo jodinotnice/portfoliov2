@@ -2,7 +2,7 @@ import { skills } from "../data-stack";
 
 export default function Skills() {
   return (
-    <section id="experience">
+    <section id="competences">
       <p className="section__text__p1">Explorez Mes</p>
       <h1 className="title">Compétences</h1>
       <div className="experience-details-container">

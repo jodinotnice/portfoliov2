@@ -15,18 +15,16 @@ export default function Projets() {
                   alt={projet.title}
                   className="project-img"
                 />
-                <h1>{projet.title}</h1>
+                <h1 className="project-title">{projet.title}</h1>
                 <p>{projet.description}</p>
                 <h2 className="project-subtitle">{projet.subtitle}</h2>
               </div>
 
-              <div className="btn-container2">
-                <button className="btn btn-color-2 project-btn">
-                  /GitHub/
-                </button>
-                <button className="btn btn-color-2 project-btn">
-                  /Live Demo/
-                </button>
+              <div className="btn-container">
+                <a className="btn btn-color-2 project-btn">/GitHub/</a>
+                {projet.visit ? (
+                  <a className="btn btn-color-2 project-btn">/Visit/</a>
+                ) : null}
               </div>
             </div>
           ))}

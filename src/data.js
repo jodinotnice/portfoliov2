@@ -11,7 +11,7 @@ export const projets = [
     title: "Kasa",
     subtitle: "React",
     description:
-      "Créer une application web de location immobilière avec React. Utiliser des composants réutilisables, mettre en place le routage entre les pages",
+      "Créer une application web de location immobilière avec React. L'objectif était de créer différents composants idéalement réutilisables, mettre en place le routage entre les pages",
     image: "images/kasa/kasa1.png",
     link: "https://github.com/jodinotnice/OC_Projet_6",
     visit: "https://main--projet6.netlify.app",

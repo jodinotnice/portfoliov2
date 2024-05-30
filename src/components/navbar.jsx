@@ -14,16 +14,24 @@ export default function Navbar() {
         <div>
           <ul className="nav-links">
             <li>
-              <a href="#about">About</a>
+              <a className="link-style" href="#about">
+                About
+              </a>
             </li>
             <li>
-              <a href="#projet">Projets</a>
+              <a className="link-style" href="#projet">
+                Projets
+              </a>
             </li>
             <li>
-              <a href="#competences">Compétences</a>
+              <a className="link-style" href="#competences">
+                Compétences
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a className="link-style" href="#contact">
+                Contact
+              </a>
             </li>
           </ul>
         </div>

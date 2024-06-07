@@ -1,8 +1,8 @@
 export default function Description() {
   return (
     <section id="about">
-      <p className="section__text__p1">Get to Know more</p>
-      <h1 className="title">About Me</h1>
+      <p className="section__text__p1">Apprenez-en Plus</p>
+      <h1 className="title">Sur Moi</h1>
       <div className="section-container">
         <div className="text-container">
           <p className="description">

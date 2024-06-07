@@ -526,3 +526,17 @@ article .icon {
   padding-top: 5rem; /* py-20 (80px) */
   padding-bottom: 5rem; /* py-20 (80px) */
 }
+
+/* FOOTER*/
+
+footer {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

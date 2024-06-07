@@ -4,7 +4,7 @@ export default function About() {
       <div className="section_pic-container">
         <img
           className="profile-picture"
-          src="./images/hero/gxmrd.png"
+          src="./images/hero/DSC083341.jpg"
           alt="Jordan Akpovi profile picture"
         />
       </div>

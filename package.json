@@ -1,6 +1,7 @@
 {
+  "homepage": "http://jodinotnice.github.io/PortfolioV2",
   "name": "portfoliov2",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -1,6 +1,6 @@
 {
-  "name": "PortfolioV2",
-  "private": true,
+  "name": "portfoliov2",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

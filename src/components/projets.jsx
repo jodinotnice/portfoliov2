@@ -17,13 +17,28 @@ export default function Projets() {
                 />
                 <h1 className="project-title">{projet.title}</h1>
                 <p>{projet.description}</p>
+                <p className="techno">Technologies/Outils :</p>
                 <h2 className="project-subtitle">{projet.subtitle}</h2>
               </div>
 
               <div className="btn-container">
-                <a className="btn btn-color-2 project-btn">/GitHub/</a>
+                <a
+                  className="btn btn-color-2 project-btn"
+                  href={projet.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  /GitHub/
+                </a>
                 {projet.visit ? (
-                  <a className="btn btn-color-2 project-btn">/Visit/</a>
+                  <a
+                    className="btn btn-color-2 project-btn"
+                    href={projet.visit}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    /Visit/
+                  </a>
                 ) : null}
               </div>
             </div>

@@ -1,3 +1,5 @@
+import pdf from "../assets/CVTest.pdf";
+
 export default function About() {
   return (
     <section id="profile">
@@ -13,13 +15,35 @@ export default function About() {
         <h1 className="title">Jordan Akpovi</h1>
         <p className="section__text__p2">Developper Web</p>
         <div className="btn-container">
-          <button className="btn btn-color-2">Mon CV</button>
+          <a
+            className="btn btn-color-2"
+            href={pdf}
+            target="_blank"
+            download="CVTest.pdf"
+            rel="noopener noreferrer"
+          >
+            Mon CV
+          </a>
 
-          <button className="btn btn-color-1">Contactez-moi</button>
+          <a className="btn btn-color-1" href="#contact">
+            Contactez-moi
+          </a>
         </div>
         <div id="social-container">
-          <img src="./images/logo/linkedin.png" className="icon" />
-          <img src="./images/logo/github.png" className="icon" />
+          <a
+            href="https://www.linkedin.com/in/jordan-akpovi-50b372109/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/logo/linkedin.png" className="icon" />
+          </a>
+          <a
+            href="https://github.com/jodinotnice"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/logo/github.png" className="icon" />
+          </a>
         </div>
       </div>
     </section>

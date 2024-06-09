@@ -19,13 +19,13 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a className="link-style" href="#projet">
-                Projets
+              <a className="link-style" href="#competences">
+                Compétences
               </a>
             </li>
             <li>
-              <a className="link-style" href="#competences">
-                Compétences
+              <a className="link-style" href="#projet">
+                Projets
               </a>
             </li>
             <li>
@@ -55,12 +55,12 @@ export default function Navbar() {
             </li>
             <li>
               <a href="#projet" onClick={toggleMenu}>
-                Projets
+                Compétences
               </a>
             </li>
             <li>
               <a href="#competences" onClick={toggleMenu}>
-                Compétences
+                Projets
               </a>
             </li>
             <li>

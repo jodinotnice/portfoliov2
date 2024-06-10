@@ -1,4 +1,4 @@
-import pdf from "../assets/CVTest.pdf";
+import pdf from "../assets/CVJA.pdf";
 
 export default function About() {
   return (
@@ -13,7 +13,8 @@ export default function About() {
       <div className="section__text">
         <p className="section__text__p1">Hey, je suis </p>
         <h1 className="title">Jordan Akpovi</h1>
-        <p className="section__text__p2">Developper Web</p>
+        <p className="section__text__p2">Développeur Web</p>
+
         <div className="btn-container">
           <a
             className="btn btn-color-2"

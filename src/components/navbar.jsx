@@ -54,12 +54,12 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#projet" onClick={toggleMenu}>
+              <a href="#competences" onClick={toggleMenu}>
                 Compétences
               </a>
             </li>
             <li>
-              <a href="#competences" onClick={toggleMenu}>
+              <a href="#projet" onClick={toggleMenu}>
                 Projets
               </a>
             </li>

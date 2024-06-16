@@ -5,6 +5,7 @@ import Skills from "./components/skills.jsx";
 import Projets from "./components/projets.jsx";
 import Contact from "./components/contact.jsx";
 import Footer from "./components/footer.jsx";
+import ScrollButton from "./components/functionnalities/ScrollToTop.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Skills />
       <Projets />
       <Contact />
+      <ScrollButton />
       <Footer />
     </main>
   );

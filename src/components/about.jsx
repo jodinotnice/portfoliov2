@@ -1,4 +1,5 @@
-import pdf from "../assets/CVJA.pdf";
+import pdf from "../assets/CVJordanAkpovi2024.pdf";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function About() {
   return (
@@ -13,14 +14,23 @@ export default function About() {
       <div className="section__text">
         <p className="section__text__p1">Hey, je suis </p>
         <h1 className="title">Jordan Akpovi</h1>
-        <p className="section__text__p2">Développeur Web</p>
+        <h1 className="section__text__p2">
+          <Typewriter
+            words={["Développeur Web"]}
+            loop={0}
+            cursor
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={3000}
+          />
+        </h1>
 
         <div className="btn-container">
           <a
             className="btn btn-color-2"
             href={pdf}
             target="_blank"
-            download="CVTest.pdf"
+            download="CVJordanAkpovi2024.pdf"
             rel="noopener noreferrer"
           >
             Mon CV

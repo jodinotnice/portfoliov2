@@ -15,7 +15,7 @@ export default function Navbar() {
           <ul className="nav-links">
             <li>
               <a className="link-style" href="#about">
-                About
+                &Agrave; propos
               </a>
             </li>
             <li>
@@ -50,7 +50,7 @@ export default function Navbar() {
           <div className={`menu-links ${hamburgerOpen ? "open" : ""}`}>
             <li>
               <a href="#about" onClick={toggleMenu}>
-                About
+                &Agrave; propos
               </a>
             </li>
             <li>

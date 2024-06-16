@@ -14,7 +14,7 @@ export default function About() {
       <div className="section__text">
         <p className="section__text__p1">Hey, je suis </p>
         <h1 className="title">Jordan Akpovi</h1>
-        <h1 className="section__text__p2">
+        <p className="section__text__p2">
           <Typewriter
             words={["Développeur Web"]}
             loop={0}
@@ -22,8 +22,9 @@ export default function About() {
             typeSpeed={70}
             deleteSpeed={50}
             delaySpeed={3000}
+            style={{}}
           />
-        </h1>
+        </p>
 
         <div className="btn-container">
           <a

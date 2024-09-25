@@ -1,4 +1,4 @@
-import pdf from "../assets/CVJordanAkpovi2024.pdf";
+import pdf from "../assets/CV-JORDAN-AKPOVI.pdf";
 import { Typewriter } from "react-simple-typewriter";
 
 export default function About() {
@@ -31,7 +31,7 @@ export default function About() {
             className="btn btn-color-2"
             href={pdf}
             target="_blank"
-            download="CVJordanAkpovi2024.pdf"
+            download="CV-JORDAN-AKPOVI.pdf"
             rel="noopener noreferrer"
           >
             Mon CV
